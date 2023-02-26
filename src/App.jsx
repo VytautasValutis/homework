@@ -4,6 +4,7 @@ import './App.scss';
 import Tvenkinys from './Components/Tvenkinys';
 import Jura from './Components/Jura';
 import Vandenynas from './Components/Vandenynas';
+import Pasaulis from './Components/Pasaulis';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -25,7 +26,8 @@ function App() {
         {/* <Bala param={seaPlaners} /> */}
         {/* <Tvenkinys param={seaPlaners} /> */}
         {/* <Jura param={seaPlaners} /> */}
-        <Vandenynas param={seaPlaners} />
+        {/* <Vandenynas param={seaPlaners} /> */}
+        <Pasaulis param={seaPlaners} />
       </header>
     </div>
   );
