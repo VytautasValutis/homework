@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Bala from './Components/Bala';
 import './App.scss';
+import Tvenkinys from './Components/Tvenkinys';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -19,7 +20,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Bala param={seaPlaners} />
+        {/* <Bala param={seaPlaners} /> */}
+        <Tvenkinys param={seaPlaners} />
       </header>
     </div>
   );
