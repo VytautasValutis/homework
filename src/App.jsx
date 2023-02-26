@@ -3,6 +3,7 @@ import Bala from './Components/Bala';
 import './App.scss';
 import Tvenkinys from './Components/Tvenkinys';
 import Jura from './Components/Jura';
+import Vandenynas from './Components/Vandenynas';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -23,7 +24,8 @@ function App() {
       <header className="App-header">
         {/* <Bala param={seaPlaners} /> */}
         {/* <Tvenkinys param={seaPlaners} /> */}
-        <Jura param={seaPlaners} />
+        {/* <Jura param={seaPlaners} /> */}
+        <Vandenynas param={seaPlaners} />
       </header>
     </div>
   );
