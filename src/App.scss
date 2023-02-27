@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.desk {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.kvad50 {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  line-height: 60px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: red;
+  position: relative;
+}
