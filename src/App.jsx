@@ -6,6 +6,7 @@ import Jura from './Components/Jura';
 import Vandenynas from './Components/Vandenynas';
 import Pasaulis from './Components/Pasaulis';
 import RF001 from './Components/RF001';
+import RF002 from './Components/RF002';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -29,7 +30,8 @@ function App() {
         {/* <Jura param={seaPlaners} /> */}
         {/* <Vandenynas param={seaPlaners} /> */}
         {/* <Pasaulis param={seaPlaners} /> */}
-        <RF001 />
+        {/* <RF001 /> */}
+        <RF002 />
       </header>
     </div>
   );
