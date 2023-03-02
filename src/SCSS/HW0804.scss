@@ -1,0 +1,25 @@
+.desk {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.elementas {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    line-height: 200px;
+    margin-top: 20px;
+    color: #fff;
+    position: relative;
+}
+.num {
+    position: absolute;
+    right: 90px;
+    top: -70px;
+}
