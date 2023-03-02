@@ -7,6 +7,9 @@ import Vandenynas from './Components/Vandenynas';
 import Pasaulis from './Components/Pasaulis';
 import RF001 from './Components/RF001';
 import RF002 from './Components/RF002';
+import HW0404 from './Components/HW0404';
+import HW0500 from './Components/HW0500';
+import HW0600 from './Components/HW0600';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -31,7 +34,10 @@ function App() {
         {/* <Vandenynas param={seaPlaners} /> */}
         {/* <Pasaulis param={seaPlaners} /> */}
         {/* <RF001 /> */}
-        <RF002 />
+        {/* <RF002 /> */}
+        {/* <HW0404 /> */}
+        {/* <HW0500 /> */}
+        <HW0600 />
       </header>
     </div>
   );

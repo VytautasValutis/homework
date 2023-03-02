@@ -32,15 +32,11 @@ function RF002() {
         if (katinuSarasas.length > 0) {
             localStorage.setItem(KEY, JSON.stringify(katinuSarasas));
         }
-    }, [katinuSarasas])
-
-
-    useEffect(() => {
         if(katinuSarasas.length === 0) {
             let temp = JSON.parse(localStorage.getItem(KEY));
             if(temp !==  null ){ setKatinuSarasas(temp); }
         }
-    });
+    }, [katinuSarasas])
 
     return <>
         <div className="App">

@@ -1,0 +1,32 @@
+.red {
+    color: red;
+  }
+  .App {
+    h5 {
+      margin-bottom: 5rem;
+      background-color: gray;
+      width: 200px;
+    }
+  }
+  .row {
+    .left {
+      margin-left: 20rem;
+    }
+  }
+  
+  .balls {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    border-radius: 50%;
+    flex-direction: row;
+  }
+  
+  .ball-block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
