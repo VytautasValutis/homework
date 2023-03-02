@@ -12,6 +12,7 @@ import HW0500 from './Components/HW0500';
 import HW0600 from './Components/HW0600';
 import RF003 from './Components/RF003';
 import RF004 from './Components/RF004';
+import RF005 from './Components/RF005';
 
 const seaPlaners = [
   { id: 1, type: 'man', name: 'Lina', color: 'blue' },
@@ -38,7 +39,8 @@ function App() {
         {/* <RF001 /> */}
         {/* <RF002 /> */}
         {/* <RF003 /> */}
-        <RF004 />
+        {/* <RF004 /> */}
+        <RF005 />
         {/* <HW0404 /> */}
         {/* <HW0500 /> */}
         {/* <HW0600 /> */}
